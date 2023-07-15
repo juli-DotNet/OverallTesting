@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAspNetWithAutofac", "TestAspNetWithAutofac\TestAspNetWithAutofac.csproj", "{E7BA5D43-3981-4AA1-9E3E-22B764C18868}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{0AF27EF1-F386-4AAF-A2E2-F013FF7E4DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E7BA5D43-3981-4AA1-9E3E-22B764C18868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7BA5D43-3981-4AA1-9E3E-22B764C18868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7BA5D43-3981-4AA1-9E3E-22B764C18868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF27EF1-F386-4AAF-A2E2-F013FF7E4DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF27EF1-F386-4AAF-A2E2-F013FF7E4DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF27EF1-F386-4AAF-A2E2-F013FF7E4DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF27EF1-F386-4AAF-A2E2-F013FF7E4DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

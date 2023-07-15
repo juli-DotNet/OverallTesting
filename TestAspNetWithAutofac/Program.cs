@@ -9,6 +9,7 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
     .ConfigureContainer<ContainerBuilder>(container =>
     {
         container.RegisterType<TestService>().As<ITestService>().InstancePerDependency();
+        container.RegisterType<Repository>().As<IRepository>().SingleInstance();
 
     });
 
